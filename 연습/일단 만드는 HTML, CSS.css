@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
+/*몬세라트 폰트 - 구글의 폰트 사용하기*/
 
-* {
+/*몬세라트 폰트 적용하기*/
+* { /* 별 의미 : 이 문서 전체에 적용한다 라는뜻. 즉, 몬세라트 폰트를 이 문서 전체에 적용한다. */
     font-family: 'Montserrat';
 }
 
 .main-box{
     width: 700px;
     padding: 20px;
-    border: 1px solid black;
+    border: 1px solid black; /*박스 태두리(경계) 그리기 => border: 두께 방식 색깔 */
     margin: 30px;
-    margin-left: auto;
+    margin-left: auto; /*박스 중앙정렬 하기 => margin-left: auto; margin-right: auto; */
     margin-right: auto;
     box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.9); 
      /*박스의 그림자 설정*/
@@ -22,19 +24,19 @@
 
 .about-me-text{
     font-size: 10px;
-    line-height: 30px;
+    line-height: 30px; /*line-height : 각 줄 사이의 간격을 설정*/
 }
 
 .flow{
-    text-align: right;
+    text-align: right; /*텍스트 정렬 위치 : 우측정렬*/
     margin-right: 20px;
     margin-top: 30px;
 }
 
 h1{
     font-size: 40px;
-    font-weight: bold;
-    font-style: italic;
+    font-weight: bold; /*font-weight: 폰트의 두깨 지정 (=> 3가지: light, bold, normal)*/
+    font-style: italic; /*font-style : 폰트 스타일 지정. italic => 글씨를 기울임 */
     margin-bottom: 8px;
 }
 
@@ -54,6 +56,9 @@ h2{
     padding-bottom: 5px; 
 }
 
+/*float : 같은 줄에 텍스트를 적게해줌. 같은 줄에 텍스트를 적지 못하던 text-align 의 한계를 극복*/
+/*왼쪽에 둥둥 떠다니는 텍스트를 생성*/
+
 .small-title{
     float: left;
     font-weight: bold;
@@ -68,7 +73,7 @@ h2{
 }
 
 .float-binding{
-    overflow: hidden
+    overflow: hidden; /* overflow: hidden => 둥둥 떠다니는 float 요소들에게 다른 html 요소들이 영향을 받지 않도록 한다. */ 
 }
 
 .contents1{
@@ -89,15 +94,15 @@ h2{
 }
 
 .img-move{
-    text-align: right;
+    text-align: right; /* 이미지도 정렬시에 text-aling 을 사용하면 된다! */
 }
 
 footer{
     background-color: #919191;
     color: white;
     font-size: 1px;
-    padding: 10px;
-    text-align: center;
-    margin: 20px;
+    padding: 10px; /*padding : 텍스트와 border(태두리) 사이의 여백 크기*/
+    text-align: center; /*텍스트 정렬 위치 : 중앙정렬*/
+    margin: 20px; /*margin : 박스 바깥영역 여백 크기*/
 }
 
