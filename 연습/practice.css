@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
+
+* {
+    font-family: 'Montserrat';
+}
+
+.main-box{
+    width: 700px;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.9); 
+     /*박스의 그림자 설정*/
+    /*인자들 의미 => 인자1) 가로축으로 그림자가 얼마나 뻗어나갈지 - 양수면 오른쪽으로, 음수면 왼쪽으로 뻗어나가고, 0이면 안뻗어나감
+     인자2) Y축으로 그림자 이동하는 것.
+     인자3) 그림자의 흐림정도(블록값) => 앵? 해보니깐 이게 그림자 퍼짐도 같은데
+     인자4) 그림자의 퍼짐도(Spread)
+     인자5) 색깔 표현 (red,greean,blue) 0~255사이의 값을 가짐. + 투명도(0~1사이의 값 => 0.4인 경우 40%의 투명도)*/
+}
+
+.about-me-text{
+    font-size: 10px;
+    line-height: 30px;
+}
+
+.flow{
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 8px;
+}
+
+.sub-big-title{
+    font-size:20px;
+    font-weight: bold;
+    color: #7c7c7c;
+}
+
+
+h2{
+    font-size: 20px;
+    font-weight: lighter;
+    color: #282828;
+    border-bottom: 1px solid #2b2b2b; /*border(경계선) 아래에만 선 생성 가능*/
+    margin-bottom: 16px; 
+    padding-bottom: 5px; 
+}
+
+.small-title{
+    float: left;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.year-title{
+    float: right;
+    font-weight: bold;
+    font-size: 12px;
+
+}
+
+.float-binding{
+    overflow: hidden
+}
+
+.contents1{
+    font-size: 10px;
+    color:#282828;
+    padding-left: 5px;
+}
+
+.contents2{
+    font-size: 10px;
+    color: #282828;
+    padding-left: 10px;
+}
+
+.img{
+    width: 20px;
+    height: 20px;
+}
+
+.img-move{
+    text-align: right;
+}
+
+footer{
+    background-color: #919191;
+    color: white;
+    font-size: 1px;
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
+}
+
