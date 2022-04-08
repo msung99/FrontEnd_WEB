@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>repl.it</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .items img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: grid;
+      }
+      .container {
+        width: 100%;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+        grid-template-rows: repeat(11,1fr);
+        /*코드 작성*/
+      }
+
+      .items:nth-child(1) {
+        grid-row-start: 1;
+        grid-row-end: 12;
+        grid-column-start: 1;
+        grid-column-end: 4;
+      }  
+
+      .items:nth-child(2) {
+        grid-row-start: 1;
+        grid-row-end: 10;
+        grid-column-start: 4;
+        grid-column-end: 7;
+      }
+
+      .items:nth-child(3) {
+        grid-row-start: 10;
+        grid-row-end: 13;
+        grid-column-start: 4;
+        grid-column-end: 7;
+      }
+
+      .items:nth-child(4) {
+        grid-row-start: 1;
+        grid-row-end: 10;
+        grid-column-start: 7;
+        grid-column-end: 10;
+      }
+
+      .items:nth-child(5) {
+        grid-row-start:10;
+        grid-row-end:12;
+        grid-column-start: 7;
+        grid-column-end: 8;
+      }
+
+      .items:nth-child(6) {
+        grid-column: 8/9;
+        grid-row: 10 / 11;
+      }
+
+      .items:nth-child(7) {
+        grid-column: 8/9;
+        grid-row: 11/12;
+      }
+
+      .items:nth-child(8) {
+        grid-column: 10/13;
+        grid-row: 1/6;
+      }
+
+      .items:nth-child(9) {
+        grid-column: 10/12;
+        grid-row: 6/8;
+      }
+
+      .items:nth-child(10) {
+        grid-column: 12/13;
+        grid-row: 6/7;
+      }
+
+      .items:nth-child(11) {
+        grid-column: 12/13;
+        grid-row: 7/8;
+      }
+
+      .items:nth-child(12) {
+        grid-column: 10/11;
+        grid-row: 8/10;
+      }
+
+      .items:nth-child(13) {
+        grid-column: 11/ 13;
+        grid-row: 8/10;
+      }
+
+      .items:nth-child(14) {
+        grid-column: 9/13;
+        grid-row:10/12;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="items">
+        <img
+          src="https://silviadiaconescu.com/work/landscape/pb-2.jpg"
+          alt="image"
+        />
+      </div>
+      <div class="items">
+        <img
+          src="https://silviadiaconescu.com/work/landscape/pb-2.jpg"
+          alt="image"
+        />
+      </div>
+      <div class="items">
+        <img
+          src="https://silviadiaconescu.com/work/landscape/pb-2.jpg"
+          alt="image"
+        />
+      </div>
+      <div class="items">
+        <img
+          src="https://silviadiaconescu.com/work/landscape/pb-2.jpg"
+          alt="image"
+        />
+      </div>
+      <div class="items">
+        <img
+          src="https://silviadiaconescu.com/work/landscape/pb-2.jpg"
+          alt="image"
+        />
+      </div>
+      <div class="items">
+        <img
+          src="https://silviadiaconescu.com/work/landscape/pb-2.jpg"
+          alt="image"
+        />
+      </div>
+      <div class="items">
+        <img
+          src="https://silviadiaconescu.com/work/landscape/pb-2.jpg"
+          alt="image"
+        />
+      </div>
+      <div class="items">
+        <img
+          src="https://silviadiaconescu.com/work/landscape/pb-2.jpg"
+          alt="image"
+        />
+      </div>
+      <div class="items">
+        <img
+          src="https://silviadiaconescu.com/work/landscape/pb-2.jpg"
+          alt="image"
+        />
+      </div>
+      <div class="items">
+        <img
+          src="https://silviadiaconescu.com/work/landscape/pb-2.jpg"
+          alt="image"
+        />
+      </div>
+      <div class="items">
+        <img
+          src="https://silviadiaconescu.com/work/landscape/pb-2.jpg"
+          alt="image"
+        />
+      </div>
+      <div class="items">
+        <img
+          src="https://silviadiaconescu.com/work/landscape/pb-2.jpg"
+          alt="image"
+        />
+      </div>
+      <div class="items">
+        <img
+          src="https://silviadiaconescu.com/work/landscape/pb-2.jpg"
+          alt="image"
+        />
+      </div>
+      <div class="items">
+        <img
+          src="https://silviadiaconescu.com/work/landscape/pb-2.jpg"
+          alt="image"
+        />
+      </div>
+    </div>
+  </body>
+</html>
